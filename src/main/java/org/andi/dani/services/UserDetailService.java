@@ -28,7 +28,4 @@ public class UserDetailService {
                 });
     }
 
-    public Mono<Users> findById() {
-        return usersRepository.findById(1L);
-    }
 }
